@@ -7,10 +7,12 @@
 перевіривши наявність прав на виконання.
 ```shell
 curl -fsL https://raw.githubusercontent.com/AZelyony/githook/main/pre-commit.sh
+sudo mv pre-commit.sh  .git/hooks/pre-commit
 ```
 
 # Другий варіант
 
+Скачати вручну pre-commit.py та виконати:
 ```shell
 python3 pre-commit.py
 ```
