@@ -11,7 +11,10 @@ curl -fsL https://raw.githubusercontent.com/AZelyony/githook/main/pre-commit.sh
 
 # Другий варіант
 
+```shell
 python3 pre-commit.py
+```
+
 Чи можна виконати наступну команду:
 
 ```shell
